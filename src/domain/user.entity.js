@@ -1,4 +1,3 @@
-const { DomainError } = require("./user.entity"); // circular import avoidance example
 const { v4: uuidv4 } = require("uuid");
 
 class DomainError extends Error {

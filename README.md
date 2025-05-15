@@ -46,8 +46,8 @@
 ## Запуск
 
 ```bash
-npm install
-node index.js
+yarn install
+yarn start
 ```
 
 ## Пример запроса

@@ -1,4 +1,6 @@
 module.exports = {
-  url: process.env.MONGO_URI || "mongodb://localhost:27017/ddd_users",
+  url:
+    process.env.MONGO_URI ||
+    "mongodb://admin:admin@localhost:27017/DomainUserLogic?authSource=admin",
   options: { useNewUrlParser: true, useUnifiedTopology: true },
 };
